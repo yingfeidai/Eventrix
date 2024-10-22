@@ -1,7 +1,7 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "../../dist/out-tsc/packages/event",
+    "outDir": "../../dist/out-tsc/packages/event-core",
     "module": "commonjs",
     "types": ["jest", "node"]
   },
