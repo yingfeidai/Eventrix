@@ -1,0 +1,28 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/cqrs"
+    },
+    {
+      "path": "./packages/saga"
+    },
+    {
+      "path": "./packages/message-queue"
+    },
+    {
+      "path": "./packages/distributed-lock"
+    },
+    {
+      "path": "./packages/event-core"
+    },
+    {
+      "path": "./packages/caching"
+    },
+    {
+      "path": "./packages/circuit-breaker"
+    }
+  ]
+}
